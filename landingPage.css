@@ -1,3 +1,28 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 .icea__landingPage__body {
-    background-color: red;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100vw;
+    width: 100vw;
+}
+
+.icea__landingPage__body .main__body {
+    background-color: white;
+    flex: 3;
+}
+
+.icea__landingPage__body .rightSide__navigation {
+    background-color: #333333;
+    flex: 1;
+    height: 100vh;
 }
