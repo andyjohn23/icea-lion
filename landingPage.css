@@ -24,5 +24,12 @@
 .icea__landingPage__body .rightSide__navigation {
     background-color: #333333;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
+}
+
+.rightSide__navigation img {
+    margin-top: 0.3rem;
 }
