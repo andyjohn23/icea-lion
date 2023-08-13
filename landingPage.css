@@ -117,3 +117,12 @@
     font-weight: 500;
     color: #333333;
 }
+
+.rightSide__content span {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 1.5rem;
+    line-height: 11px;
+}
