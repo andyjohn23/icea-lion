@@ -27,7 +27,6 @@
     flex-direction: column;
     margin-top: 3rem;
     align-items: center;
-    border: 1px solid red;
     height: 90vh;
     width: 100%;
 }
@@ -196,7 +195,6 @@
 .carousel {
     width: 600px;
     height: auto;
-    border: 1px solid green;
     z-index: 1;
     margin-top: 10rem;
     position: absolute;
@@ -218,14 +216,16 @@
     width: 50%;
     height: 70px;
     background-color: rgba(255, 255, 255, 0.3);
-    z-index: 1;
+    z-index: 3;
     bottom: 0;
-    border: 1px solid red;
     position: absolute;
+    box-shadow: 1px 4px 24px -2px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 1px 4px 24px -2px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 1px 4px 24px -2px rgba(0, 0, 0, 0.57);
 }
 
 .more__information .tell__more {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     height: auto;
     display: flex;
     flex-direction: row;
@@ -233,11 +233,25 @@
     justify-content: center;
 }
 
+.more__information .tell__more a {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #712252;
+}
+
 .more__information .buy__now {
-    background-color: rgba(51, 51, 51, 0.5);
+    background-color: rgba(51, 51, 51, 0.9);
     height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.more__information .buy__now a {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #fff;
 }
