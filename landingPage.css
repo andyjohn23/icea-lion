@@ -6,6 +6,12 @@
     overflow-x: hidden;
 }
 
+.container-fluid {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+}
+
 .mainbody-leftContent {
     background-color: #712252;
 }
@@ -84,5 +90,5 @@
     font-weight: 500;
     color: #fff;
     margin: 0.4rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
