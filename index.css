@@ -271,7 +271,6 @@
         justify-content: center;
         z-index: 10;
         overflow: hidden;
-        background-color: green;
     }
 
     .icea__landingPage__body .main__body {
@@ -284,7 +283,6 @@
         text-align: center;
         text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
         padding: 1rem;
-        background-color: red;
         overflow: hidden;
     }
 
@@ -322,6 +320,14 @@
         align-self: center;
         padding: 1.2rem;
         padding-bottom: 5rem;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .more__information {
+        display: none;
     }
 
     .icea__landingPage__body .main__body {
@@ -406,14 +412,151 @@
     .transfer__form .fa-play {
         display: none;
     }
+}
+
+/* small phones media query */
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+    .main__body .mainBody__content {
+        margin-top: 0.5rem;
+    }
+}
+
+/* iphone x media query */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    * {
+        max-width: 100vw;
+    }
+
+    .mainBody__content .mainBody__slideshowContent {
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+        width: 100vw;
+        justify-content: center;
+        z-index: 10;
+        overflow: hidden;
+    }
+
+    .icea__landingPage__body .main__body {
+        max-height: 100vh;
+    }
+
+    .main__body .mainBody__content .title {
+        font-size: 28px;
+    }
+
+    .mainBody__slideshowContent .left__content {
+        overflow: hidden;
+    }
+
+    .mainBody__slideshowContent .left__content h1 {
+        font-size: 30px;
+    }
+
+    .mainBody__slideshowContent .left__content p {
+        font-size: 17px;
+    }
+
+    .mainBody__slideshowContent .right__content {
+        overflow: hidden;
+    }
+
+    .mainBody__slideshowContent .right__content h1 {
+        font-size: 30px;
+    }
+
+    .mainBody__slideshowContent .right__content p {
+        font-size: 17px;
+    }
 
     .carousel {
-        width: 600px;
-        height: auto;
-        z-index: 1;
-        margin-top: 15rem;
-        position: absolute;
+        display: none;
+    }
+
+    .more__information {
+        display: none;
+    }
+
+    .icea__landingPage__body .main__body {
         overflow: hidden;
-        border: none;
+    }
+
+    .icea__landingPage__body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100vw;
+        width: 100vw;
+        height: auto;
+    }
+
+    .icea__landingPage__body .rightSide__navigation {
+        min-height: 100vh;
+    }
+
+    .rightSide__navigation .rightSide__content img {
+        width: 270px;
+        height: auto;
+    }
+
+    .rightSide__navigation h1 {
+        font-size: 27px;
+        align-self: center;
+    }
+
+    .rightSide__navigation a {
+        font-size: 22px;
+        align-self: center;
+    }
+
+    .rightSide__content .book__call,
+    .watch__video,
+    .transfer__form {
+        background-color: #fff;
+        width: 100%;
+        height: 62px;
+        margin-top: 0.7rem;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: space-between;
+        padding: 0.7rem;
+        overflow: hidden;
+    }
+
+    .book__call a {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: #333333;
+        text-align: center;
+    }
+
+    .book__call .fa-play {
+        display: none;
+    }
+
+    .watch__video a {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: #333333;
+        text-align: center;
+    }
+
+    .watch__video .fa-play {
+        display: none;
+    }
+
+    .transfer__form a {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: #333333;
+        text-align: center;
+    }
+
+    .transfer__form .fa-play {
+        display: none;
     }
 }
