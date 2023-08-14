@@ -17,12 +17,12 @@
     align-items: center;
     justify-content: center;
     border: 1px solid red;
+    height: 100vh;
 }
 
 .mainbody-rightContent .logo {
     width: 270px;
     object-fit: cover;
-    margin-top: 2.5rem;
 }
 
 .mainbody-rightContent h1 {
@@ -30,7 +30,7 @@
     font-family: sans-serif;
     font-weight: 800;
     color: #fff;
-    padding-top: 2.5rem;
+    padding-top: 2rem;
     align-self: center;
     text-align: center;
 }
@@ -41,7 +41,6 @@
     width: 95%;
     align-self: center;
     background-color: green;
-    margin-top: 1.5rem;
 }
 
 .rightContent-links .links {
@@ -55,6 +54,7 @@
     background-color: #fff;
     height: 55px;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .links span {
@@ -67,4 +67,22 @@
 .links .fa-angle-right {
     font-size: 20px;
     color: #0460AB;
+}
+
+.rightContent-links .footer-content {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 15px;
+    color: #fff;
+    margin: 0.4rem;
+}
+
+.rightContent-links .client-login-redirect {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin: 0.4rem;
+    margin-top: 4rem;
 }
