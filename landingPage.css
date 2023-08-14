@@ -28,7 +28,7 @@
     margin-top: 3rem;
     align-items: center;
     border: 1px solid red;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 
@@ -200,6 +200,7 @@
     z-index: 1;
     margin-top: 10rem;
     position: absolute;
+    overflow: hidden;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -211,4 +212,32 @@
 
 .carousel-indicators .active {
     background-color: #000;
+}
+
+.more__information {
+    width: 50%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+    bottom: 0;
+    border: 1px solid red;
+    position: absolute;
+}
+
+.more__information .tell__more {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.more__information .buy__now {
+    background-color: rgba(51, 51, 51, 0.5);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
